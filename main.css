@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 30px 0;
+    background-color: rgb(20, 10, 108);
+    color: #ecf0f1;
+}
+section h1,
+section h2,
+section h4{
+    color: rgb(20, 10, 108);
+}
+h1,section h1,section h2,section h4, header nav li a{
+    font-family: 'Press Start 2P';
+    font-weight: normal;
+}
+body{
+        font-family: 'Roboto', sans-serif;
+        background-color: rgb(185, 182, 182);
+    }
+
+header nav li{
+    display: inline;
+    margin-left: 60px;
+}
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+.container, section{
+    max-width: 1680px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    padding: 8px;
+    height: 482px;
+    width: 500px;
+}
+section video{
+    height: 300px;
+    width: 500px;
+}
+section .container{
+    align-items: flex-start;
+    display: flex;
+}
+section h1{
+    margin-bottom: 24px;
+    margin-top: 24px;
+    
+}
+section .container .sobre h4{
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+footer{
+    background-color:rgb(20, 10, 108) ;
+    color: #ecf0f1;
+    padding: 16px;
+}
+section li a img {
+    height: 50px;
+    width: 50px;
+}
+.social-links li a{
+    text-decoration: none;
+}
+.social-links li {
+    display: inline;
+}
